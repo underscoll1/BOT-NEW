@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
-from LINETCR.lib.curve.ttypes import *
+import BOT-NEW
+from BOT-NEW.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
-cl = LINETCR.LINE()
+cl = BOT-NEW.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
